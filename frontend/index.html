@@ -9,9 +9,20 @@
 <body>
     <div class="container">
         <h2>Word Frequency Analyzer</h2>
-        <input type="text" id="urlInput" placeholder="Enter URL" />
-        <button onclick="analyzeUrl()">Analyze</button>
+        
+        <div class="input-container">
+            <input type="text" id="urlInput" placeholder="Enter URL" />
+            <button onclick="analyzeUrl()">Analyze</button>
+            <!-- New button aligned to the right with click effect -->
+            <a href="https://app.eraser.io/workspace/J4WijuUGKxtjHkkxrG1q?origin=share" 
+               target="_blank" 
+               class="flow-button">
+               Flow of Project
+            </a>
+        </div>
+
         <div id="error" style="color: red;"></div>
+        
         <table id="resultTable" style="display: none;">
             <thead>
                 <tr>
